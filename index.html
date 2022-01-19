@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+
+        header .icon {
+            margin-bottom: 10px;
+        }
+
+        main .burgers {
+            width: 1100px;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        .burger {
+            background-color: #FDC897;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 30px;
+            border-radius: 24px;
+        }
+
+        .burger .thumbnail {
+            width: 160px;
+            height: 160px;
+            border-radius: 24px;
+            margin-right: 24px;
+        }
+
+        .burger .caret {
+            margin-left: auto;
+        }
+
+        .burger h2 {
+            font-size: 40px;
+        }
+
+        .burger p {
+            font-size: 24px;
+        }
+
+        footer {
+            display: block;
+            width: 1100px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="icon.svg" alt="Burger" class="icon">
+        <h1>상엽이의 버거 레시피</h1>
+    </header>
+
+    <main>
+        <ul class="burgers">
+            <li class="burger">
+                <img src="burger1.png" alt="Burger image" class="thumbnail" />
+                <div class="content">
+                    <h2>맥앤치즈버거</h2>
+                    <p>혈관이 터지는 맛! 맥앤치즈버거를 만들어 먹어봅시다.</p>
+                </div>
+                <img class="caret" src="right-caret.svg" alt=">">
+            </li>
+            <li class="burger">
+                <img src="burger1.png" alt="Burger image" class="thumbnail" />
+                <div class="content">
+                    <h2>맥앤치즈버거</h2>
+                    <p>혈관이 터지는 맛! 맥앤치즈버거를 만들어 먹어봅시다.</p>
+                </div>
+                <img class="caret" src="right-caret.svg" alt=">">
+            </li>
+            <li class="burger">
+                <img src="burger1.png" alt="Burger image" class="thumbnail" />
+                <div class="content">
+                    <h2>맥앤치즈버거</h2>
+                    <p>혈관이 터지는 맛! 맥앤치즈버거를 만들어 먹어봅시다.</p>
+                </div>
+                <img class="caret" src="right-caret.svg" alt=">">
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        COPYRIGHT 2021 이상엽. ALL RIGHTS RESERVED.
+    </footer>
+</body>
+
+</html>
